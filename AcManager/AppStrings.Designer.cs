@@ -19,12 +19,12 @@ namespace AcManager {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class AppStrings {
         
-        private static FirstFloor.ModernUI.CustomResourceManager resourceMan;
+        private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
@@ -36,10 +36,10 @@ namespace AcManager {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static FirstFloor.ModernUI.CustomResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    FirstFloor.ModernUI.CustomResourceManager temp = new FirstFloor.ModernUI.CustomResourceManager("AcManager.AppStrings", typeof(AppStrings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AcManager.AppStrings", typeof(AppStrings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -3680,7 +3680,7 @@ namespace AcManager {
         ///sometimes even in several times. There is not much benefit in compressing files like soundbanks or PNG images: those formats
         ///have proper compression already, and it will only slightly slow down AC loading.
         ///[br][br]I recommend to use the best compression algorithm, LZX. It will add some CPU load during loading, but CPU has nothing to do
-        ///anyway while it’s waiting for disk to get the data, and there will much less da [rest of string was truncated]&quot;;.
+        ///anyway while it’s waiting for disk to get the data, and there will much les [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ContentTools_FilesCompressor_Description {
             get {
@@ -11375,6 +11375,15 @@ namespace AcManager {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hide images in server descriptions.
+        /// </summary>
+        public static string Settings_Online_HideImagesInServerDescription {
+            get {
+                return ResourceManager.GetString("Settings_Online_HideImagesInServerDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LAN:.
         /// </summary>
         public static string Settings_Online_LanHeader {
@@ -11793,7 +11802,7 @@ namespace AcManager {
         ///
         ///  Modifiers:
         ///   [b][mono]{…:l}[/mono][/b] — lowercase;
-        ///   [b][mono]{…:u}[/m [rest of string was truncated]&quot;;.
+        ///   [b][ [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Settings_Replays_NameFormat_Tooltip {
             get {
